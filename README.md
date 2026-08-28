@@ -65,6 +65,32 @@ Done!
 
 ---
 
+### 3. `sleep_script.py`
+
+**Description:**  
+A utility script that pauses execution for 45 seconds. Useful for testing delays, simulating longer wait times, or as a placeholder in automated workflows and pipelines.
+
+**What it does:**
+- Prints a message indicating the sleep has started
+- Waits for **45 seconds**
+- Prints a completion message
+
+**Prerequisites:**
+- Python 3.x (no external dependencies)
+
+**Usage:**
+```bash
+python sleep_script.py
+```
+
+**Example output:**
+```
+Starting sleep for 45 seconds...
+Sleep completed!
+```
+
+---
+
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
@@ -88,6 +114,8 @@ Done!
    python get_caller_identity.py
    # or
    python sleep.py
+   # or
+   python sleep_script.py
    ```
 
 ---
