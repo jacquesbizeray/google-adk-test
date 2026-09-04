@@ -39,33 +39,7 @@ Successfully retrieved AWS caller identity:
 
 ---
 
-### 2. `sleep.py`
-
-**Description:**  
-A simple utility script that pauses execution for 30 seconds. Useful for testing delays, simulating wait times, or as a placeholder in pipelines.
-
-**What it does:**
-- Prints a message indicating the sleep has started
-- Waits for **30 seconds**
-- Prints a completion message
-
-**Prerequisites:**
-- Python 3.x (no external dependencies)
-
-**Usage:**
-```bash
-python sleep.py
-```
-
-**Example output:**
-```
-Sleeping for 30 seconds...
-Done!
-```
-
----
-
-### 3. `sleep_script.py`
+### 2. `sleep_script.py`
 
 **Description:**  
 A utility script that pauses execution for 45 seconds. Useful for testing delays, simulating longer wait times, or as a placeholder in automated workflows and pipelines.
@@ -112,8 +86,6 @@ Sleep completed!
 4. **Run a script:**
    ```bash
    python get_caller_identity.py
-   # or
-   python sleep.py
    # or
    python sleep_script.py
    ```
